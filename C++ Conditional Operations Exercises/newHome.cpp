@@ -21,8 +21,8 @@ If Nelly Buy less than 80 Gladiolus - the price increases by 20%
 
 3 lines are read from the console:
 Type of flowers - text with options - "Roses", "Dahlias", "Tulips", "Narcissus", "Gladiolus"
-Number of flowers - integer in the interval [10… 1000]
-Budget - an integer in the range [50… 2500]
+Number of flowers - integer in the interval [10â€¦ 1000]
+Budget - an integer in the range [50â€¦ 2500]
 
 To print on the console in one line:
 If their budget is enough - "Hey, you have a great garden with {number of flowers} {type of flowers} and {remaining amount} leva left."
@@ -99,7 +99,10 @@ The amount should be formatted to the second decimal place.
  				cout<<" leva more."<<endl;
 			 }
 		}
- 		
+		
+ 		/*Apparently here I have some kind of problem, because everything is like in the other ifs/elses.
+		The budget should be 50.56 but somehow it is aways 0.00 and I don't understand why??? 
+		I carefully inspected the Curly brackets and everything seems to be fine... */
 	 }else if (flowers=="Tulips"){
  		if(fn>80){
  			finalPrice=fn*2.80-(fn*2.80)*0.15;
