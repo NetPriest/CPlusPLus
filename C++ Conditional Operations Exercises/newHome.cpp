@@ -38,9 +38,10 @@ The amount should be formatted to the second decimal place.
  int main(){
  	
  	string flowers;
- 	int fn,budget;
+ 	int fn;
+	double budget,finalPrice;
  	cin>>flowers>>fn>>budget;
- 	double finalPrice;
+ 	
  	
  	if(flowers=="Roses"){
  		if(fn>80){
