@@ -1,0 +1,9 @@
+﻿  donutSpinner.cpp
+C:\Users\user-pc\Desktop\CPlusPlus\C++ Spining Donut\SpiningDonut\SpiningDonut\donutSpinner.cpp(16,35): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\user-pc\Desktop\CPlusPlus\C++ Spining Donut\SpiningDonut\SpiningDonut\donutSpinner.cpp(17,36): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\user-pc\Desktop\CPlusPlus\C++ Spining Donut\SpiningDonut\SpiningDonut\donutSpinner.cpp(30,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\user-pc\Desktop\CPlusPlus\C++ Spining Donut\SpiningDonut\SpiningDonut\donutSpinner.cpp(31,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\user-pc\Desktop\CPlusPlus\C++ Spining Donut\SpiningDonut\SpiningDonut\donutSpinner.cpp(33,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\user-pc\Desktop\CPlusPlus\C++ Spining Donut\SpiningDonut\SpiningDonut\donutSpinner.cpp(44,12): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\user-pc\Desktop\CPlusPlus\C++ Spining Donut\SpiningDonut\SpiningDonut\donutSpinner.cpp(45,12): warning C4305: '+=': truncation from 'double' to 'float'
+  SpiningDonut.vcxproj -> C:\Users\user-pc\Desktop\CPlusPlus\C++ Spining Donut\SpiningDonut\x64\Debug\SpiningDonut.exe
