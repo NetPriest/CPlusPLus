@@ -103,7 +103,9 @@ The amount should be formatted to the second decimal place.
 		
  		/*Apparently here I have some kind of problem, because everything is like in the other ifs/elses.
 		The budget should be 50.56 but somehow it is aways 0.00 and I don't understand why??? 
-		I carefully inspected the Curly brackets and everything seems to be fine... */
+		I carefully inspected the Curly brackets and everything seems to be fine... 
+		PS: I managed to fix the problem everything works normally now. I have removed the last else if and made it obviously only else my badd...
+		*/
 	 }else if (flowers=="Tulips"){
  		if(fn>80){
  			finalPrice=fn*2.80-(fn*2.80)*0.15;
