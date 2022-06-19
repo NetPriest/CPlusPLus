@@ -4,10 +4,17 @@
 using namespace std;
 
 int main(){
-	double y,com,ytotalbgn,btctotalbgn,totalbgn,result;
+	
+	double y,
+	com,
+	ytotalbgn,
+	btctotalbgn,
+	totalbgn,
+	result;
 	int btc;
 	
 	cin>>btc>>y>>com;
+	
 	btctotalbgn=btc*1168;
 	ytotalbgn=(y*0.15)*1.76;
 	totalbgn=(btctotalbgn+ytotalbgn)/1.95;
